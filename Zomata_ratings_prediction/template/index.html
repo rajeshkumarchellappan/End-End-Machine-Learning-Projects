@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Total Data Science</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<img src=
+"data:image/jpeg;base64,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"
+         alt="zomato image", width="300", height="150", style="float:left">
+
+<img src=
+"https://mljar.com/images/machine-learning/extra_trees_logo.png" alt="Extra Tree Regression Model"
+         , width="200", height="70", style="float:right">
+
+<style>
+body {
+  background-image: url("https://media.istockphoto.com/photos/pizza-and-hamburger-on-wooden-background-picture-id618546412?k=6&m=618546412&s=612x612&w=0&h=ZjkHisteBWTfrfUdrjIxHV-nnfQqqS0suOstQH8Us-4=");
+  background-position: 200%;
+  background-size: cover;
+}
+</style>
+
+
+
+ <div class="login">
+	<h1 style="color:red;">Prediction of  Zomato Restaurant Ratings</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Online Order" placeholder="Order Online" required="required" />
+        <input type="text" name="Book Table" placeholder="Book Table" required="required" />
+		<input type="text" name="Votes" placeholder="Votes" required="required" />
+        <input type="text" name="Location" placeholder="Location" required="required" />
+        <input type="text" name="Restaurant Type" placeholder="Restaurant Type" required="required" />
+        <input type="text" name="Cuisines" placeholder="Cuisines" required="required" />
+        <input type="text" name="Cost" placeholder="Cost" required="required" />
+        <input type="text" name="Menu Item" placeholder="Menu Item" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
